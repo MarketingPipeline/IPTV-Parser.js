@@ -35,7 +35,7 @@ This is a basic JavaScript library for fetching & parsing M3U files from a URL o
 ### Parse M3U8 from URL
 
 ```js
-import {ParseM3U} from 'https://cdn.jsdelivr.net/gh/MarketingPipeline/IPTV-Parser.js/dist/iptv-parser.js';
+import {ParseM3U} from 'https://cdn.jsdelivr.net/gh/MarketingPipeline/IPTV-Parser.js/dist/iptv-parser.min.js';
 
 async function Fetch_IPTV_Links() {
   try {
@@ -53,7 +53,7 @@ will return a JSON object of parsed results.
 ### Parse M3U8 from string
 
 ```js
-import {ParseM3U} from 'https://cdn.jsdelivr.net/gh/MarketingPipeline/IPTV-Parser.js/dist/iptv-parser.js';
+import {ParseM3U} from 'https://cdn.jsdelivr.net/gh/MarketingPipeline/IPTV-Parser.js/dist/iptv-parser.min.js';
 
 async function Parse_M3U_String() {
   try {
@@ -81,11 +81,11 @@ will return a JSON object of parsed results.
 
 ### URL
 
-    https://cdn.jsdelivr.net/gh/MarketingPipeline/IPTV-Parser.js/dist/iptv-parser.js
+    https://cdn.jsdelivr.net/gh/MarketingPipeline/IPTV-Parser.js/dist/iptv-parser.min.js
 
 ### Import 
 
-    import {ParseM3U} from 'https://cdn.jsdelivr.net/gh/MarketingPipeline/IPTV-Parser.js/dist/iptv-parser.js';
+    import {ParseM3U} from 'https://cdn.jsdelivr.net/gh/MarketingPipeline/IPTV-Parser.js/dist/iptv-parser.min.js';
      
 
 
