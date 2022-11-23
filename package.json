@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "name": "@MarketingPipeline/IPTV-Parser.js",
+  "version": "1.0.0",
+  "description": "A pure vanilla JavaScript library for EASILY parsing M3U / IPTV",
+  "license": "MIT",
+  "main": "./dist/iptv-parser.min.js",
+  "author": {
+    "name": "MarketingPipeline",
+    "url": "https://github.com/MarketingPipeline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MarketingPipeline/IPTV-Parser.js.git"
+  }
+}
