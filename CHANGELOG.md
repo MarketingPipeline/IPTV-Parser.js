@@ -14,6 +14,7 @@ All notable changes to this project will be documented in this file.
 - Improved error handling & best pratices of JavaScript.
 - Improved code readability and maintainability.
 - Remove module required from CDN provider.
+- Errors will NOT be returned in a JSON key called iptv_parser_error anymore.
 
 ## [1.0.0] - (Nov 23, 2022)
 
