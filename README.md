@@ -29,20 +29,17 @@ This is a basic JavaScript library for fetching & parsing M3U files from a URL o
 ## Example usage
 
 
-> Note: Any errors will be returned in a JSON key called <code>iptv_parser_error</code>
-
-
 ### Parse M3U8 from URL
 
 ```js
-import {ParseM3U} from 'https://cdn.jsdelivr.net/gh/MarketingPipeline/IPTV-Parser.js/dist/iptv-parser.min.js';
+import {ParseM3U} from 'https://cdn.jsdelivr.net/gh/MarketingPipeline/IPTV-Parser.js@latest/dist/iptv-parser.min.js';
 
 async function Fetch_IPTV_Links() {
   try {
-     let IPTV_Results = ParseM3U(`https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_pluto.m3u`, "URL")
+     let IPTV_Results = ParseM3U(`https://raw.githubusercontent.com/iptv-org/iptv/master/streams/us_pluto.m3u`)
      console.log(await IPTV_Results)
   } catch (err) {
-  //  console.error(err);
+     console.error(err);
   }
 }
 Fetch_IPTV_Links()
@@ -53,7 +50,7 @@ will return a JSON object of parsed results.
 ### Parse M3U8 from string
 
 ```js
-import {ParseM3U} from 'https://cdn.jsdelivr.net/gh/MarketingPipeline/IPTV-Parser.js/dist/iptv-parser.min.js';
+import {ParseM3U} from 'https://cdn.jsdelivr.net/gh/MarketingPipeline/IPTV-Parser.js@latest/dist/iptv-parser.min.js';
 
 async function Parse_M3U_String() {
   try {
@@ -73,24 +70,6 @@ Parse_M3U_String()
 ```
 
 will return a JSON object of parsed results. 
-
-<br> 
-
-
-## CDN
-
-### URL
-
-    https://cdn.jsdelivr.net/gh/MarketingPipeline/IPTV-Parser.js/dist/iptv-parser.min.js
-
-### Import 
-
-    import {ParseM3U} from 'https://cdn.jsdelivr.net/gh/MarketingPipeline/IPTV-Parser.js/dist/iptv-parser.min.js';
-     
-
-
-
-
 
 
 ## Contributing ![GitHub](https://img.shields.io/github/contributors/MarketingPipeline/IPTV-Parser.js)
